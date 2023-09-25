@@ -1,0 +1,9 @@
+.carrusel{
+    width: 80vw;
+    margin: auto;
+}
+@media(max-width:1200px){
+    .carrusel{
+        width: 95vw;
+    }
+}

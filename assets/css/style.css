@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 950px) {
+  main {
+    width: 90%;
+  }
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.336);
+  position: fixed;
+  z-index: 1500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading i {
+  color: white;
+  font-size: 50px;
+  animation-name: rotar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotar {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.subtitulos {
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+@media (max-width: 750px) {
+  .subtitulos {
+    font-size: x-large;
+  }
+}
+@media (max-width: 580px) {
+  .subtitulos {
+    font-size: large;
+  }
+}
+.carrusel {
+  width: 80vw;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .carrusel {
+    width: 95vw;
+  }
+}
+.logos {
+  color: #25d366;
+  font-size: x-large;
+}
+
+.footer__desc {
+  color: white;
+}
+
+.headerIndex {
+  text-shadow: 3px 3px 10px #1876f2;
+  border-radius: 9px;
+}
+.headerIndex .h1headerIndex {
+  font-size: 6vw;
+}
+.headerIndex .pHeader {
+  font-size: 3vw;
+}
+
+.imgHeader {
+  width: 80vw;
+  border-radius: 30px;
+}
+
+@media (max-width: 1200px) {
+  header {
+    margin-bottom: 45px;
+  }
+  .imgHeader {
+    width: 95vw;
+  }
+}
+.navEscritorio .navegacion a:hover {
+  background-color: #1877f2;
+}
+
+.navCelular a {
+  font-size: 20px;
+}
+
+@media (max-width: 360px) {
+  .navCelular a {
+    font-size: 16px;
+  }
+}
+.navCelular ul li a:hover {
+  background-color: #1877f2;
+}
+
+@media (min-width: 1101px) {
+  .navCelular {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .navEscritorio div {
+    display: none;
+  }
+}
+.quienesSomos__desc {
+  margin: auto;
+  text-align: justify;
+}
+
+@media (max-width: 950px) {
+  .quienesSomos__desc {
+    margin: 5px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .imgCelular {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .imgEscritorio {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

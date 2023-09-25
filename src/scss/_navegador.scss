@@ -1,0 +1,24 @@
+.navEscritorio .navegacion a:hover{
+    background-color: #1877f2;
+}
+.navCelular a{
+    font-size: 20px;
+}
+@media(max-width:360px){
+    .navCelular a{
+        font-size: 16px;
+    }
+}
+.navCelular ul li a:hover{
+    background-color: #1877f2;
+}
+@media(min-width:1101px){
+    .navCelular{
+        display: none;
+    }
+}
+@media(max-width:1100px){
+    .navEscritorio div{
+        display: none;
+    }
+}

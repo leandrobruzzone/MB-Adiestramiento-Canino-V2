@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+@media(max-width:950px){
+    main{
+        width: 90%;
+    }
+}
+@import "loading";
+@import "subtitulos";
+@import "carrusel";
+@import "footer";
+@import "header";
+@import "navegador";
+@import "quienesSomos__desc";
+@import "imagenes";
